@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: white;
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(141, 44, 163));
+    overflow-x:hidden;
+    & a {
+        color: white;
+        text-decoration: none;
+    }
+}

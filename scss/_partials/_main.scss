@@ -1,0 +1,50 @@
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    & .main-info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+
+        & .info-text {
+            width: 40vw;
+            font-size: 2rem;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 2vw;
+            display: flex;
+            flex-wrap: wrap;
+
+            flex-direction: column;
+            text-shadow: rgb(33, 32, 33) 10px 0 10px;
+
+            & h1 {
+                width: fit-content;
+                max-width: 45vw;
+            }
+
+            & p {
+                margin-top: 3vh;
+            }
+        }
+
+        & .logo_img img {
+            width: fit-content;
+            display: flex;
+            // justify-content: end;
+            // justify-items: flex-end;
+            margin-left: 10vw;
+
+            & img {
+                width: 20vw;
+                height: auto;
+                margin-left: auto;
+            }
+        }
+    }
+}

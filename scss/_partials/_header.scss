@@ -1,0 +1,27 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    & nav {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100vw;
+
+        & ul li {
+            padding: 1%;
+            display: inline-block;
+            margin-right: auto;
+            margin-left: auto;
+            justify-content: center;
+            justify-items: center;
+            color: white;
+        }
+
+        & ul li:hover {
+            color: red;
+            text-shadow: 1px 1px 2px rgb(255, 255, 255);
+        }
+    }
+}

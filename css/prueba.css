@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+body {
+  color: white;
+  background-image: linear-gradient(to left, black, #8d2ca3);
+  overflow-x: hidden; }
+  body a {
+    color: white;
+    text-decoration: none; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%; }
+  header nav {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100vw; }
+    header nav ul li {
+      padding: 1%;
+      display: inline-block;
+      margin-right: auto;
+      margin-left: auto;
+      justify-content: center;
+      justify-items: center;
+      color: white; }
+    header nav ul li:hover {
+      color: red;
+      text-shadow: 1px 1px 2px white; }
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  main .main-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    main .main-info .info-text {
+      width: 40vw;
+      font-size: 2rem;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 2vw;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      text-shadow: #212021 10px 0 10px; }
+      main .main-info .info-text h1 {
+        width: fit-content;
+        max-width: 45vw; }
+      main .main-info .info-text p {
+        margin-top: 3vh; }
+    main .main-info .logo_img img {
+      width: fit-content;
+      display: flex;
+      margin-left: 10vw; }
+      main .main-info .logo_img img img {
+        width: 20vw;
+        height: auto;
+        margin-left: auto; }
+
+aside {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2vw; }
+  aside h2 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    text-shadow: 5px 0px 5px black; }
+  aside .plantillas-ejemplo {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto; }
+    aside .plantillas-ejemplo img {
+      width: 60vw;
+      border: white solid 2px; }

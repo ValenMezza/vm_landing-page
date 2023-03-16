@@ -1,0 +1,120 @@
+@import "./_partials/body";
+@import "./_partials/header";
+@import "./_partials/main";
+@import "./_partials/aside";
+@import "./_partials/footer";
+
+
+
+// * {
+//     padding: 0;
+//     margin: 0;
+//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+// }
+
+// body {
+//     color: white;
+//     background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(141, 44, 163));
+//     overflow-x:hidden;
+//     & a {
+//         color: white;
+//         text-decoration: none;
+//     }
+// }
+
+// header {
+//     display: flex;
+//     flex-direction: row;
+//     width: 100%;
+
+//     & nav {
+//         margin-right: auto;
+//         margin-left: auto;
+//         width: 100vw;
+
+//         & ul li {
+//             padding: 1%;
+//             display: inline-block;
+//             margin-right: auto;
+//             margin-left: auto;
+//             justify-content: center;
+//             justify-items: center;
+//             color: white;
+//         }
+
+//         & ul li:hover {
+//             color: red;
+//             text-shadow: 1px 1px 2px rgb(255, 255, 255);
+//         }
+//     }
+// }
+
+// main {
+//     width: 100vw;
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+
+//     & .main-info {
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: wrap;
+
+
+//         & .info-text {
+//             width: 40vw;
+//             font-size: 2rem;
+//             margin-top: auto;
+//             margin-bottom: auto;
+//             margin-left: 2vw;
+//             display: flex;
+//             flex-wrap: wrap;
+
+//             flex-direction: column;
+//             text-shadow: rgb(33, 32, 33) 10px 0 10px;
+
+//             & h1 {
+//                 width: fit-content;
+//                 max-width: 45vw;
+//             }
+
+//             & p {
+//                 margin-top: 3vh;
+//             }
+//         }
+
+//         & .logo_img img {
+//             width: fit-content;
+//             display: flex;
+//             // justify-content: end;
+//             // justify-items: flex-end;
+//             margin-left: 10vw;
+
+//             & img {
+//                 width: 20vw;
+//                 height: auto;
+//                 margin-left: auto;
+//             }
+//         }
+//     }
+// }
+// aside{
+//     display: flex;
+//     flex-direction: column;
+//     margin-left: 2vw;
+//     & h2{
+//         margin-top: 3vh;
+//         margin-bottom: 3vh;
+//         text-shadow: 5px 0px 5px rgb(0, 0, 0);
+//     }
+//     & .plantillas-ejemplo{
+//         width: fit-content;
+//         margin-left: auto;
+//         margin-right: auto;
+//         & img{
+//             width: 60vw;
+
+//             border: white solid 2px;
+//         }
+//     }
+// }
