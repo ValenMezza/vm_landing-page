@@ -21,10 +21,25 @@
             </ul>
         </nav>
     </header>
+
     <section>
-        <main id="main-informacion">
-            <h1>Valentino Mezzavilla</h1>
-            <p>Soy un desarrollador web freelance dispuesto a potenciar al máximo su marca utilizando todas las herramientas que desarrollé en el transcurso de mis estudios</p>
+        <main id="main-contacto">
+            <h1>Dejános tu consulta y nos contactaremos a la brevedad</h1>
+            <form action="https://formsubmit.co/mezza12354@gmail.com" method="POST">
+                <label for="Nombre">Nombre:</label>
+                <input required name="Nombre" type="text">
+                <label for="Apellido">Apellido:</label>
+                <input required type="text" name="Apellido">
+                <label for="Email">Correo electronico:</label>
+                <input required type="text">
+                <label for="Contacto">Teléfono:</label>
+                <input required type="tel" name="Contacto" id="">
+                <label for="Asunto">Asunto:</label>
+                <input required type="text" name="Asunto" id="">
+                <p id="p-form">(*)Datos obligatorios</p>
+                <button type="submit">Enviar</button>
+                <p>Al presionar "Enviar" deberás completar el reCAPTCHA para que el formulario se envíe correctamente</p>
+            </form>
         </main>
     </section>
     <footer>
