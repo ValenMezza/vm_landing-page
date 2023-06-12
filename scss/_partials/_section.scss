@@ -1,0 +1,168 @@
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+
+    & #main-index {
+        display: flex;
+        flex-direction: column;
+
+        & .main-info {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 1vw;
+            overflow-y: hidden;
+
+            & h1 {
+                margin-left: 0.5vw;
+            }
+
+            & .info-text {
+                width: 40vw;
+                min-width: 300px;
+                font-size: 16px;
+                margin-top: auto;
+                margin-bottom: auto;
+                margin-left: 1vw;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                text-shadow: $shadow;
+
+                & h1 {
+                    display: block;
+                    width: fit-content;
+                    font: 2em sans-serif;
+                    max-width: 40vw;
+                }
+            }
+
+            & .logo_img img {
+                width: 100%;
+                max-width: 40vw;
+                min-width: 250px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    & #main-planes {
+        & h1 {
+            width: 100%;
+            display: block;
+        }
+
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        & .info-planes {
+            width: 29vw;
+            min-width: 230px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            color: black;
+            border-radius: $border-radius;
+            border: solid rgb(255, 255, 255) 5px;
+            padding: 1%;
+            background-color: rgb(255, 255, 255);
+            margin-bottom: 2vh;
+            margin-right: 2vw;
+            & h2{
+                overflow-y: hidden;
+                font-size: 1.5rem;
+            }
+
+            & h3{
+                font-size: 1.5rem;
+            }
+            & h4{
+                font-size: 1.5rem;
+            }
+
+            & ul li {
+                list-style: none;
+            }
+
+            & button {
+                background-color: rgb(0, 0, 0);
+                color: black;
+                border: 2px solid black;
+                border-radius: $border-radius;
+                padding: 2%;
+                display: flex;
+                justify-content: center;
+                margin: auto;
+                margin-bottom: 5vh;
+            }
+        }
+    }
+
+    & #main-contacto {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        & form {
+            width: 50vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: auto;
+            align-items: center;
+            & label{
+                text-align: start;
+                text-align: start;
+            }
+
+            & input {
+                justify-content: center;
+                width: 30vw;
+                color: white;
+                background-color: rgb(0, 0, 0);
+                border: 2px solid white;
+                border-radius: $border-radius;
+
+            }
+
+            & button {
+                margin-left: auto;
+                margin-right: auto;
+                justify-content: center;
+                justify-items: center;
+                background-color: $back-button;
+                color: white;
+                font-weight: lighter;
+                border-radius: $border-radius;
+                border: solid white 2px;
+
+                margin-top: 2%;
+                width: 20vw;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            & #p-form{
+                color: gray;
+                text-align: center;
+            }
+
+            & p {
+                text-align: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}

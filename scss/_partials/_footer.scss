@@ -1,29 +1,46 @@
-footer{
-    padding: 2%;
+footer {
+    margin-top: 50vh;
+    bottom: auto;
+    color: white;
+    width: 100%;
     font-size: 16px;
     margin-top: 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    & .info{
-        width: 35vw;
+    justify-content: space-around;
+
+    & .info {
+        width: 40vw;
         font-size: 1rem;
         min-width: 80px;
-        background-color: green;
-
+        list-style: none;
+        text-decoration: none;
+        & ul li {
+            list-style: none;
+            text-decoration: none;
+        }
+        & ul li a:hover{
+            text-shadow: $footer-shadow;
+        }
     }
-    & .redes-sociales{
-        background-color: yellow;
+
+    & .redes-sociales {
         margin-left: 1vw;
-        width: 20vw;
+        width: 25vw;
         min-width: 80px;
         display: flex;
         flex-direction: column;
-        padding: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        & a:hover{
+            text-shadow: $footer-shadow;
+
+        }
     }
-    & .info-contacto{
+
+    & .info-contacto {
         margin-left: 1vw;
-        background-color: blue;
         width: 25vw;
         min-width: 80px;
     }

@@ -1,0 +1,13 @@
+@media screen and (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    section #main-contacto{
+        & h1{
+            font-size: 2rem;
+            color: red;
+        }
+    }
+}

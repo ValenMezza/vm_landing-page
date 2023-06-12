@@ -1,13 +1,22 @@
 aside {
+    width: 100%;
+    overflow-y: hidden;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     min-width: 300px;
     margin-left: 2vw;
+    color: white;
 
     & article {
+        & .info-article {
+            overflow-y:visible;
+        }
+
         width: 100%;
+
+
         display: flex;
         flex-wrap: wrap;
         margin-left: auto;
@@ -15,53 +24,64 @@ aside {
         flex-direction: row;
 
         & h2 {
+            overflow-y: hidden;
+            font-size: 1.4rem;
             font-weight: normal;
         }
 
         & li {
-            font-size: 1.5rem;
+            font-size: 1.1rem;
             color: rgb(255, 255, 255);
+            list-style: none;
             margin-left: 1vw;
             margin-top: 3vh;
             margin-bottom: 3vh;
             text-shadow: 5px 0px 5px rgb(0, 0, 0);
         }
-    }
 
-    & .responsiveDesign {
-        display: flex;
-        width: 30vw;
-        margin-left: auto;
-        margin-right: auto;
 
-        & img {
-            width: 100%;
-            min-width: 150px;
-            margin-right: auto;
+        & .responsiveDesign {
+            display: flex;
+            width: 30vw;
             margin-left: auto;
-            height: auto;
-            border: white solid 1px;
-            box-shadow: $box-shadow;
+            margin-right: auto;
+
+            & img {
+                width: 100%;
+                min-width: 150px;
+                margin-right: auto;
+                margin-left: auto;
+                height: auto;
+                border: white solid 1px;
+                box-shadow: $box-shadow;
+            }
         }
-    }
 
-    & #button-planes {
-        width: 15vw;
-        margin: auto;
-        min-width: fit-content;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        background-color: $back-button;
-        color: black;
-        padding: 1%;
-        font-weight: bold;
-        box-shadow: $box-shadow;
-        // margin-top: 5vh;
+        & #button-planes {
+            width: 20vw;
+            margin: auto;
+            margin-left: auto;
+            margin-right: auto;
+            min-width: fit-content;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: $back-button;
+            padding: 1%;
+            font-weight: bold;
+            box-shadow: $box-shadow;
+            margin-top: 10vh;
+            margin-bottom: 5vh;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: $border-radius;
 
-        & a {
-            color: black;
-            font-size: 1.2rem;
+            & a {
+                font-weight: lighter;
+                display: flex;
+                flex-wrap: wrap;
+                color: rgb(255, 255, 255);
+                font-size: 1.1rem;
+            }
         }
     }
 }
