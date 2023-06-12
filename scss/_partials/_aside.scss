@@ -1,20 +1,67 @@
-aside{
+aside {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 300px;
     margin-left: 2vw;
-    & h2{
-        margin-top: 3vh;
-        margin-bottom: 3vh;
-        text-shadow: 5px 0px 5px rgb(0, 0, 0);
-    }
-    & .plantillas-ejemplo{
-        width: fit-content;
+
+    & article {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
-        & img{
-            width: 60vw;
+        flex-direction: row;
 
-            border: white solid 2px;
+        & h2 {
+            font-weight: normal;
+        }
+
+        & li {
+            font-size: 1.5rem;
+            color: rgb(255, 255, 255);
+            margin-left: 1vw;
+            margin-top: 3vh;
+            margin-bottom: 3vh;
+            text-shadow: 5px 0px 5px rgb(0, 0, 0);
+        }
+    }
+
+    & .responsiveDesign {
+        display: flex;
+        width: 30vw;
+        margin-left: auto;
+        margin-right: auto;
+
+        & img {
+            width: 100%;
+            min-width: 150px;
+            margin-right: auto;
+            margin-left: auto;
+            height: auto;
+            border: white solid 1px;
+            box-shadow: $box-shadow;
+        }
+    }
+
+    & #button-planes {
+        width: 15vw;
+        margin: auto;
+        min-width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: $back-button;
+        color: black;
+        padding: 1%;
+        font-weight: bold;
+        box-shadow: $box-shadow;
+        // margin-top: 5vh;
+
+        & a {
+            color: black;
+            font-size: 1.2rem;
         }
     }
 }

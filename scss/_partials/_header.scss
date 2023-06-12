@@ -9,6 +9,11 @@ header {
         margin-left: auto;
         width: 100vw;
 
+        
+        & ul{
+            border: solid 1px white;
+        }
+
         & ul li {
             padding: 1%;
             display: inline-block;
@@ -20,8 +25,8 @@ header {
         }
 
         & ul li:hover {
-            color: red;
-            text-shadow: 1px 1px 2px rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            text-shadow: 10px 10px 10px  rgb(1, 255, 230);
         }
     }
 }
