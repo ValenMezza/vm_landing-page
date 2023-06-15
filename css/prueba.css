@@ -15,6 +15,26 @@ body {
   body a {
     color: white;
     text-decoration: none; }
+  body h1 {
+    overflow-y: hidden; }
+  body h2 {
+    overflow-y: hidden; }
+  body h3 {
+    overflow-y: hidden; }
+  body h4 {
+    overflow-y: hidden; }
+  body h5 {
+    overflow-y: hidden; }
+  body button {
+    overflow-y: hidden; }
+  body div {
+    overflow-y: hidden; }
+  body p {
+    overflow-y: hidden; }
+  body ul {
+    overflow-y: hidden; }
+    body ul li {
+      overflow-y: hidden; }
 
 header {
   display: flex;
@@ -36,7 +56,8 @@ header {
       color: white; }
       header nav ul li a {
         min-width: max-content;
-        font-size: 1rem; }
+        font-size: 1rem;
+        color: white; }
     header nav ul li:hover {
       text-shadow: rgba(70, 76, 77, 0.982) 10px 0 10px; }
     header nav ul li a:hover {
@@ -49,6 +70,10 @@ section {
   flex-direction: row;
   flex-wrap: wrap;
   overflow-y: hidden; }
+  section h1 {
+    font-size: 2rem;
+    color: #fdfdfd;
+    overflow-y: hidden; }
   section #main-index {
     display: flex;
     flex-direction: column; }
@@ -63,10 +88,8 @@ section {
       section #main-index .main-info .info-text {
         width: 40vw;
         min-width: 300px;
-        font-size: 16px;
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: 1vw;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -74,7 +97,6 @@ section {
         section #main-index .main-info .info-text h1 {
           display: block;
           width: fit-content;
-          font: 2em sans-serif;
           max-width: 40vw; }
       section #main-index .main-info .logo_img img {
         width: 100%;
@@ -93,6 +115,7 @@ section {
     flex-wrap: wrap;
     justify-content: space-evenly; }
     section #main-planes h1 {
+      margin-left: 0.5vw;
       width: 100%;
       display: block; }
     section #main-planes .info-planes {
@@ -131,6 +154,8 @@ section {
     display: flex;
     flex-direction: column;
     width: 100%; }
+    section #main-contacto h1 {
+      margin-left: 0.5vw; }
     section #main-contacto form {
       width: 50vw;
       display: flex;
@@ -251,7 +276,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around; }
   footer .info {
-    width: 40vw;
+    width: 39vw;
     font-size: 1rem;
     min-width: 80px;
     list-style: none;
@@ -262,19 +287,22 @@ footer {
     footer .info ul li a:hover {
       text-shadow: 2px 8px 5px rgba(255, 255, 255, 0.85); }
   footer .redes-sociales {
-    margin-left: 1vw;
     width: 25vw;
     min-width: 80px;
     display: flex;
     flex-direction: column;
-    padding-left: 2%;
-    padding-right: 2%; }
+    padding-right: 1%; }
     footer .redes-sociales a:hover {
       text-shadow: 2px 8px 5px rgba(255, 255, 255, 0.85); }
   footer .info-contacto {
-    margin-left: 1vw;
-    width: 25vw;
-    min-width: 80px; }
+    width: 30vw;
+    min-width: 90px; }
+  footer h5 {
+    font-size: 1.2rem; }
+  footer p {
+    font-size: 0.8rem; }
+  footer a {
+    font-size: 0.8rem; }
 
 main .landing-page__main {
   color: red; }
@@ -290,18 +318,132 @@ main .landing-page__main {
     margin: 0;
     padding: 0;
     font-size: 16px; }
-  section #main-contacto h1 {
-    font-size: 1rem;
-    color: red; } }
+  section h1 {
+    font-size: 2rem;
+    color: white; } }
 
 @media screen and (max-width: 600px) {
   * {
-    font-size: 16px;
-    overflow-x: hidden;
-    overflow-y: auto; }
-  body {
+    font-size: 16px; }
+  section {
     overflow-x: hidden;
     overflow-y: hidden; }
-  section h1 {
-    font-size: 1rem;
-    color: white; } }
+    section #main-index .main-info {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 100vw; }
+      section #main-index .main-info .info-text {
+        width: 100%; }
+        section #main-index .main-info .info-text h1 {
+          min-width: 100vw;
+          text-align: center;
+          font-size: 1.3rem;
+          color: white; }
+    section #main-contacto h1 {
+      font-size: 1.2rem;
+      text-align: center; }
+    section #main-contacto label {
+      text-align: left;
+      font-size: 0.9rem; }
+    section #main-contacto p {
+      font-size: 0.6rem; }
+    section #main-planes h1 {
+      font-size: 2rem;
+      text-align: center; }
+    section #main-planes .info-planes h2 {
+      font-size: 1.3rem; }
+    section #main-planes .info-planes h3 {
+      font-size: 1.3rem; }
+    section #main-planes .info-planes h4 {
+      font-size: 1.3rem; }
+    section #main-planes .info-planes li {
+      font-size: 1rem; }
+    section #main-planes .info-planes button {
+      font-size: 1rem; }
+    section #main-informacion {
+      margin-left: 2vw;
+      margin-right: 2vw; }
+      section #main-informacion h1 {
+        font-size: 2rem; }
+      section #main-informacion p {
+        font-size: 1rem; }
+  aside article {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw; }
+    aside article .info-article {
+      font-size: 1.5rem; }
+    aside article .responsiveDesign {
+      font-size: 16px;
+      width: 60vw; }
+  footer h5 {
+    font-size: 1rem; }
+  footer .info p {
+    font-size: 0.8rem; }
+  footer .info a {
+    font-size: 0.8rem; } }
+
+@media screen and (max-width: 470px) {
+  * {
+    font-size: 16px; }
+  section {
+    overflow-x: hidden;
+    overflow-y: hidden; }
+    section #main-index .main-info {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 100vw; }
+      section #main-index .main-info .info-text {
+        width: 100%; }
+        section #main-index .main-info .info-text h1 {
+          min-width: 100vw;
+          text-align: center;
+          font-size: 1.3rem;
+          color: white; }
+    section #main-contacto h1 {
+      font-size: 1.2rem;
+      text-align: center; }
+    section #main-contacto label {
+      text-align: left;
+      font-size: 0.9rem; }
+    section #main-contacto p {
+      font-size: 0.6rem; }
+    section #main-planes h1 {
+      font-size: 2rem;
+      text-align: center; }
+    section #main-planes .info-planes h2 {
+      font-size: 1.3rem; }
+    section #main-planes .info-planes h3 {
+      font-size: 1.3rem; }
+    section #main-planes .info-planes h4 {
+      font-size: 1.3rem; }
+    section #main-planes .info-planes li {
+      font-size: 1rem; }
+    section #main-planes .info-planes button {
+      font-size: 1rem; }
+    section #main-informacion {
+      margin-left: 2vw;
+      margin-right: 2vw; }
+      section #main-informacion h1 {
+        font-size: 2rem; }
+      section #main-informacion p {
+        font-size: 1rem; }
+  aside article {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw; }
+    aside article .info-article {
+      font-size: 1.5rem; }
+    aside article .responsiveDesign {
+      font-size: 16px;
+      width: 60vw; }
+  footer h5 {
+    font-size: 1rem; }
+  footer .info p {
+    font-size: 0.8rem; }
+  footer .info a {
+    font-size: 0.8rem; } }

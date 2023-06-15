@@ -4,6 +4,11 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     overflow-y: hidden;
+    & h1{
+        font-size: 2rem;
+        color: rgb(253, 253, 253);
+        overflow-y: hidden;
+    }
 
     & #main-index {
         display: flex;
@@ -23,10 +28,9 @@ section {
             & .info-text {
                 width: 40vw;
                 min-width: 300px;
-                font-size: 16px;
                 margin-top: auto;
                 margin-bottom: auto;
-                margin-left: 1vw;
+                // margin-left: 1vw;
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: column;
@@ -35,7 +39,6 @@ section {
                 & h1 {
                     display: block;
                     width: fit-content;
-                    font: 2em sans-serif;
                     max-width: 40vw;
                 }
             }
@@ -55,6 +58,7 @@ section {
 
     & #main-planes {
         & h1 {
+            margin-left: 0.5vw;
             width: 100%;
             display: block;
         }
@@ -113,6 +117,9 @@ section {
         display: flex;
         flex-direction: column;
         width: 100%;
+        & h1{
+            margin-left: 0.5vw;
+        }
 
         & form {
             width: 50vw;

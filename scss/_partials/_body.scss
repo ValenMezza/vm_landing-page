@@ -1,4 +1,5 @@
 @import '../variables/-variables.scss';
+
 * {
     padding: 0;
     margin: 0;
@@ -19,5 +20,43 @@ body {
     & a {
         color: white;
         text-decoration: none;
+    }
+
+    & h1 {
+        overflow-y: hidden;
+    }
+
+    & h2 {
+        overflow-y: hidden;
+    }
+
+    & h3 {
+        overflow-y: hidden;
+    }
+
+    & h4 {
+        overflow-y: hidden;
+    }
+
+    & h5 {
+        overflow-y: hidden;
+    }
+
+    & button {
+        overflow-y: hidden;
+    }
+
+    & div {
+        overflow-y: hidden;
+    }
+
+    & p {
+        overflow-y: hidden;
+    }
+    & ul{
+        overflow-y: hidden;
+        & li{
+            overflow-y: hidden;
+        }
     }
 }

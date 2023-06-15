@@ -11,37 +11,48 @@ footer {
     justify-content: space-around;
 
     & .info {
-        width: 40vw;
+        width: 39vw;
         font-size: 1rem;
         min-width: 80px;
         list-style: none;
         text-decoration: none;
+
         & ul li {
             list-style: none;
             text-decoration: none;
         }
-        & ul li a:hover{
+
+        & ul li a:hover {
             text-shadow: $footer-shadow;
         }
     }
 
     & .redes-sociales {
-        margin-left: 1vw;
         width: 25vw;
         min-width: 80px;
         display: flex;
         flex-direction: column;
-        padding-left: 2%;
-        padding-right: 2%;
-        & a:hover{
-            text-shadow: $footer-shadow;
+        padding-right: 1%;
 
+        & a:hover {
+            text-shadow: $footer-shadow;
         }
     }
 
     & .info-contacto {
-        margin-left: 1vw;
-        width: 25vw;
-        min-width: 80px;
+        width: 30vw;
+        min-width: 90px;
+    }
+
+    & h5 {
+        font-size: 1.2rem;
+    }
+
+    & p {
+        font-size: 0.8rem;
+    }
+
+    & a {
+        font-size: 0.8rem;
     }
 }
