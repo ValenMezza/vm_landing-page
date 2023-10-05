@@ -27,12 +27,12 @@
             }
             & #main-contacto{
                 & h1{
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                     text-align: center;
                 }
                 & label{
                     text-align: left;
-                    font-size: 0.9rem;
+                    font-size: 0.7rem;
                 }
                 & p{
                     font-size: 0.6rem;
@@ -41,18 +41,18 @@
     
             & #main-planes{
                 & h1{
-                    font-size: 2rem;
+                    font-size: 1rem;
                     text-align: center;
                 }
                 & .info-planes{
                     & h2{
-                        font-size: 1.3rem;
+                        font-size: 1rem;
                     }
                     & h3{
-                        font-size: 1.3rem;
+                        font-size: 1rem;
                     }
                     & h4{
-                        font-size: 1.3rem;
+                        font-size: 1rem;
                     }
                     & li{
                         font-size: 1rem;
@@ -91,15 +91,16 @@
             }
         }
         footer{
+            font-size: 10px;
             & h5{
-                font-size: 1rem;
+                font-size: 0.8rem;
             }
             & .info{
                 p{
-                    font-size: 0.8rem;
+                    font-size: 0.7rem;
                 }
                 & a{
-                    font-size: 0.8rem;
+                    font-size: 0.7rem;
                 }
             }
     }

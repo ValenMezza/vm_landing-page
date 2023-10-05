@@ -195,6 +195,24 @@ section {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap; }
+  section #main-informacion {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between; }
+    section #main-informacion .info-divs {
+      border: 2px solid black;
+      padding: 5px;
+      border-radius: 5px 5px 5px 5px;
+      box-shadow: rgba(70, 76, 77, 0.982) 0px 20px 10px;
+      display: block;
+      width: fit-content;
+      margin: 50px;
+      background-color: white; }
+      section #main-informacion .info-divs a {
+        color: black;
+        text-decoration: underline; }
 
 aside {
   width: 100%;
@@ -404,22 +422,22 @@ main .landing-page__main {
           font-size: 1.3rem;
           color: white; }
     section #main-contacto h1 {
-      font-size: 1.2rem;
+      font-size: 1rem;
       text-align: center; }
     section #main-contacto label {
       text-align: left;
-      font-size: 0.9rem; }
+      font-size: 0.7rem; }
     section #main-contacto p {
       font-size: 0.6rem; }
     section #main-planes h1 {
-      font-size: 2rem;
+      font-size: 1rem;
       text-align: center; }
     section #main-planes .info-planes h2 {
-      font-size: 1.3rem; }
+      font-size: 1rem; }
     section #main-planes .info-planes h3 {
-      font-size: 1.3rem; }
+      font-size: 1rem; }
     section #main-planes .info-planes h4 {
-      font-size: 1.3rem; }
+      font-size: 1rem; }
     section #main-planes .info-planes li {
       font-size: 1rem; }
     section #main-planes .info-planes button {
@@ -441,9 +459,11 @@ main .landing-page__main {
     aside article .responsiveDesign {
       font-size: 16px;
       width: 60vw; }
-  footer h5 {
-    font-size: 1rem; }
-  footer .info p {
-    font-size: 0.8rem; }
-  footer .info a {
-    font-size: 0.8rem; } }
+  footer {
+    font-size: 10px; }
+    footer h5 {
+      font-size: 0.8rem; }
+    footer .info p {
+      font-size: 0.7rem; }
+    footer .info a {
+      font-size: 0.7rem; } }
